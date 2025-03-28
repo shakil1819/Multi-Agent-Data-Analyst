@@ -10,7 +10,7 @@ jobs:
         linter: [ruff, mypy]
         include:
           - linter: ruff
-            command: ruff check --diff .
+            command: ruff check --fix .
           - linter: mypy
             command: mypy .
     steps:
