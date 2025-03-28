@@ -41,6 +41,8 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "GitHub.vscode-pull-request-github"
+      "GitHub.vscode-github-actions"
       "ms-edgedevtools.vscode-edge-devtools"
       "Google.geminicodeassist"
       "shd101wyy.markdown-preview-enhanced"
