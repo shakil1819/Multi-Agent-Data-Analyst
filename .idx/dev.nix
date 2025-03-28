@@ -41,6 +41,7 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "zhuangtongfa.material-theme"
       "GitHub.vscode-pull-request-github"
       "GitHub.vscode-github-actions"
       "ms-edgedevtools.vscode-edge-devtools"
