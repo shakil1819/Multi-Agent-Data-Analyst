@@ -1,0 +1,28 @@
+[project]
+name = "python-fastapi-template"
+version = "0.1.0"
+description = "A template for a Python FastAPI service with uv & Devcontainer"
+authors = [{ name = "Shakil Mosharrof", email = "shakilmrf8@gmail.com" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi[standard]>=0.115.8",
+]
+
+
+[dependency-groups]
+dev = [
+  "mypy>=1.15.0",
+  "pre-commit>=4.1.0",
+  "pytest>=8.3.4",
+  "pytest-cov>=6.0.0",
+  "ruff>=0.9.9",
+]
+
+[tool.mypy]
+strict = true
+pretty = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=app --cov-branch --cov-report=term --cov-report=html --cov-fail-under=100"
