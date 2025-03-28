@@ -25,3 +25,9 @@ jobs:
         run: uv sync --frozen
       - name: Run ${{ matrix.linter }} check
         run: uv run ${{ matrix.command }}
+      - name: Upload logs
+        if: failure()
+        uses: actions/upload-artifact@v2
+        with:
+          name: format-logs
+          path: ./logs
