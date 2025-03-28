@@ -18,14 +18,13 @@ A template for a Python FastAPI service:
 - [x] [pre-commit](https://pre-commit.com/) for code quality checks
 - [x] [Github Actions](https://github.com/features/actions) for CI/CD
 - [x] [pytest](https://docs.pytest.org/) for testing
-- [ ] [Kamal](https://kamal-deploy.org/) for deployment (TODO: add Kamal deploy action)
 
 ## Build and run locally
 
-Install `uv` and `python3.12`
+Install `uv` and `python3.11`
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
-uv python install 3.12
+uv python install 3.11
 ```
 
 Then install dependencies
