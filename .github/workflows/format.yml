@@ -27,7 +27,7 @@ jobs:
         run: uv run ${{ matrix.command }}
       - name: Upload logs
         if: failure()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: format-logs
           path: ./logs
