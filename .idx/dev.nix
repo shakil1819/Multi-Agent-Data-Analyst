@@ -41,6 +41,7 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "EchoAPI.echoapi-for-vscode"
       "zhuangtongfa.material-theme"
       "GitHub.vscode-pull-request-github"
       "GitHub.vscode-github-actions"
@@ -54,7 +55,7 @@
       "hediet.vscode-drawio"
       "amazonwebservices.aws-toolkit-vscode"
       "OmriGM.codeium"
-      "rangav.vscode-thunder-client"
+      # "rangav.vscode-thunder-client"
       "ms-azuretools.vscode-docker"
       "Codeium.codeium"
       # "Codium.codium"
