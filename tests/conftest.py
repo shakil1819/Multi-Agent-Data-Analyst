@@ -8,7 +8,7 @@ from fastapi.testclient import TestClient
 from app.main import app
 
 
-@pytest.fixture()
+@pytest.fixture
 def client() -> Generator[TestClient, Any, None]:
     yield TestClient(app)
     app.dependency_overrides = {}

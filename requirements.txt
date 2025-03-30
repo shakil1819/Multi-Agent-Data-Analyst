@@ -92,7 +92,7 @@ pyparsing==3.2.3
 pyright==1.1.398
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
-python-fastapi-template @ file:///home/user/getChief-assignment
+# python-fastapi-template @ file:///home/user/getChief-assignment
 python-multipart==0.0.20
 pytz==2025.2
 pyyaml==6.0.2
