@@ -18,6 +18,9 @@ ruff-format:
 
 ruff: ruff-check ruff-format
 
+run:
+	uv run uvicorn app.main:app --port 8000 --reload
+
 ops: pytest pre-commit clean ruff
 	@echo "\033[92mAll operations completed successfully.\033[0m"
 	@echo "\033[93mPlease check the output above for any errors or warnings.\033[0m"
