@@ -11,7 +11,9 @@ myenv/
 # C extensions
 *.so
 .env
-
+*.csv
+*.db
+*.Identifier
 # Distribution / packaging
 .Python
 build/
