@@ -5,10 +5,12 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+myenv/
 *$py.class
 .idea
 # C extensions
 *.so
+.env
 
 # Distribution / packaging
 .Python

@@ -5,11 +5,26 @@ description = "A template for a Python FastAPI service with uv & Devcontainer"
 authors = [{ name = "Shakil Mosharrof", email = "shakilmrf8@gmail.com" }]
 license = "MIT"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
+  "agno>=1.2.6",
+  "duckdb>=1.2.1",
   "fastapi[standard]>=0.115.8",
   "fireducks>=1.2.5",
+  "ipykernel>=6.29.5",
+  "jupyter>=1.1.1",
+  "langchain>=0.3.22",
+  "langgraph>=0.3.21",
+  "numpy>=2.0.2",
+  "openai>=1.69.0",
+  "openai-agents>=0.0.7",
+  "pandas>=2.2.3",
+  "pandas-stubs>=2.2.2.240807",
+  "phi>=0.6.7",
+  "phidata>=2.7.10",
+  "pre-commit>=4.1.0",
   "pydantic-ai[logfire]>=0.0.46",
+  "streamlit>=1.44.1",
 ]
 
 
@@ -41,7 +56,7 @@ testpaths = [
 
 [tool.black]
 line-length = 100
-target-version = ['py311']
+target-version = ['py39']
 include = '\.pyi$'
 exclude = '''
 /(
