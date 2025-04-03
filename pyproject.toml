@@ -16,6 +16,7 @@ dependencies = [
   "jupyter>=1.1.1",
   "langchain>=0.3.22",
   "langgraph>=0.3.21",
+  "matplotlib>=3.9.4",
   "numpy>=2.0.2",
   "openai>=1.69.0",
   "openai-agents>=0.0.7",
@@ -25,6 +26,7 @@ dependencies = [
   "phidata>=2.7.10",
   "pre-commit>=4.1.0",
   "pydantic-ai[logfire]>=0.0.46",
+  "scikit-learn>=1.6.1",
   "streamlit>=1.44.1",
 ]
 
