@@ -12,6 +12,7 @@ myenv/
 *.so
 .env
 *.csv
+*.ipynb
 *.db
 *.Identifier
 # Distribution / packaging
