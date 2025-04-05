@@ -11,6 +11,7 @@ myenv/
 # C extensions
 *.so
 .env
+/notebook/logs
 *.csv
 *.ipynb
 *.db
