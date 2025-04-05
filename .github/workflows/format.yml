@@ -10,9 +10,9 @@ jobs:
         linter: [ruff, mypy]
         include:
           - linter: ruff
-            command: ruff check --fix . --exclude ./notebook/logs
+            command: ruff check --fix . --exclude ./notebook/
           - linter: mypy
-            command: mypy . --exclude ./notebook/logs
+            command: mypy . --exclude ./notebook/
     steps:
       - uses: actions/checkout@v4
       - name: Install uv
