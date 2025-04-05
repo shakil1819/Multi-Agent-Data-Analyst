@@ -19,7 +19,7 @@ repos:
       - id: detect-private-key
       - id: end-of-file-fixer
         types: [python]
-        exclude: ^app/agent/.*
+        exclude: ^notebook/
       - id: fix-byte-order-marker
       - id: mixed-line-ending
       - id: name-tests-test
@@ -40,14 +40,14 @@ repos:
         entry: uv run ruff check --fix
         language: system
         types: [python]
-        exclude: ^app/agent/.*
+        exclude: ^notebook/
 
       - id: ruff-format
         name: Python code formatting with Ruff
         entry: uv run ruff format
         language: system
         types: [python]
-        exclude: ^app/agent/.*
+        exclude: ^notebook/
 
       - id: mypy
         name: Python type checking with MyPy
@@ -58,7 +58,7 @@ repos:
         args:
         - "app"
         - "tests"
-        exclude: ^app/agent/.*
+        exclude: ^notebook/
   -   repo: local
       hooks:
       -   id: pyright
