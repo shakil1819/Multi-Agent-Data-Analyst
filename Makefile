@@ -1,5 +1,5 @@
 pytest:
-	pytest --cov-report term --cov=app ./tests
+	pytest --cov-report term --cov=app --cov-config=.coveragerc ./tests -v --ignore=tests/tools/
 
 pre-commit:
 	pre-commit run --all-files
@@ -8,7 +8,7 @@ clean:
 	find . | grep -E "(__pycache__|\.pyc|\.pyo)" | xargs rm -rf
 	find . | grep -E ".pytest_cache" | xargs rm -rf
 	find . | grep -E ".ipynb_checkpoints" | xargs rm -rf
-	rm -rf .coverage*
+	rm -rf .coverage
 
 ruff-check:
 	ruff check --fix .

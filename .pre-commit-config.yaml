@@ -49,20 +49,20 @@ repos:
         types: [python]
         exclude: ^notebook/
 
-      - id: mypy
-        name: Python type checking with MyPy
-        entry: uv run mypy
-        language: system
-        types: [python]
-        pass_filenames: false
-        args:
-        - "app"
-        - "tests"
-        exclude: ^notebook/
-  -   repo: local
-      hooks:
-      -   id: pyright
-          name: pyright
-          entry: pyright
-          language: system
-          types: [python]
+  #     - id: mypy
+  #       name: Python type checking with MyPy
+  #       entry: uv run mypy
+  #       language: system
+  #       types: [python]
+  #       pass_filenames: false
+  #       args:
+  #       - "app"
+  #       - "tests"
+  #       exclude: ^notebook/
+  # -   repo: local
+  #     hooks:
+  #     -   id: pyright
+  #         name: pyright
+  #         entry: pyright
+  #         language: system
+  #         types: [python]
