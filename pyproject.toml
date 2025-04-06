@@ -9,6 +9,7 @@ requires-python = ">=3.9"
 dependencies = [
   "agno>=1.2.6",
   "ai-data-science-team>=0.0.0.9016",
+  "chromadb>=1.0.0",
   "commitizen>=4.4.1",
   "duckdb>=1.2.1",
   "fastapi[standard]>=0.115.8",
@@ -27,6 +28,7 @@ dependencies = [
   "phidata>=2.7.10",
   "pre-commit>=4.1.0",
   "pydantic-ai[logfire]>=0.0.46",
+  "pydantic-graph>=0.0.52",
   "scikit-learn>=1.6.1",
   "streamlit>=1.44.1",
 ]
