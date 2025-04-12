@@ -4,7 +4,6 @@
   [![format Action](https://github.com/IbraheemTuffaha/python-fastapi-template/actions/workflows/format.yml/badge.svg)](https://github.com/IbraheemTuffaha/python-fastapi-template/actions/workflows/format.yml)
   [![Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FIbraheemTuffaha%2Fpython-fastapi-template%2Fmain%2Fpyproject.toml&query=project.requires-python&label=python&color=greenlime)](https://github.com/IbraheemTuffaha/python-fastapi-template/blob/main/pyproject.toml)
   [![GitHub License](https://img.shields.io/github/license/IbraheemTuffaha/python-fastapi-template?color=greenlime)](https://github.com/IbraheemTuffaha/python-fastapi-template/blob/main/LICENSE)
-  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=IbraheemTuffaha_python-fastapi-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=IbraheemTuffaha_python-fastapi-template)
 </div>
 <div align="center">
   <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fshakil1819%2FgetChief-assignment">
@@ -23,7 +22,66 @@
   </a>
 </div>
 
-- Endpoints: Create, Read, Update, Delete users
-- Router setup: `app/v1/routers/base.py` and `app/v1/routers/users.py`
-- User model: `app/v1/models/user.py`
-- User management: `app/v1/services/user/user_manager.py`
+![image](https://github.com/user-attachments/assets/e124c4a7-18ea-49f2-8726-f16d1207e63f)
+
+# Multi-Agent Data Analysis System
+
+This Agentic system is designed to handle complex data analysis tasks by breaking them down into smaller subtasks and delegating them to specialized agents. The system uses a multi-agent architecture to improve performance and scalability.
+
+## System Components
+
+- **Agent Orchestrator**: The main controller that coordinates the work of the agents.
+- **Data Analyst Agent**: Handles data analysis tasks.
+- **SQL Data Analyst Agent**: Specialized in SQL-based data analysis.
+- **Visualization Server**: Manages the visualization of data analysis results.
+
+## Setup
+
+1. Install dependencies:
+```bash
+uv venv
+uv sync
+```
+
+2. Set up environment variables:
+```bash
+cp .env.example .env # OPENAI_API_KEY
+```
+
+3. Run the application:
+```bash
+python main.py
+```
+
+## Usage
+
+1. Access the API at `http://localhost:8000`.
+2. Use the endpoints provided by the API to interact with the system.
+
+## Testing
+
+1. Run tests:
+```bash
+python -m pytest
+```
+
+2. Run coverage report:
+```bash
+python -m pytest --cov=app
+```
+
+## License
+
+MIT License
+
+## Acknowledgments
+
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [Plotly](https://plotly.com/)
+- [OpenAI](https://openai.com/)
+- [IDX](https://idx.dev/)
+- [Pydantic_AI](https://ai.pydantic.dev/)
+- [LangGraph](https://github.com/langchain-ai/langgraph)
+
+
