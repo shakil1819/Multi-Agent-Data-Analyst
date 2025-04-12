@@ -22,6 +22,8 @@
   </a>
 </div>
 
+![image](https://github.com/user-attachments/assets/e124c4a7-18ea-49f2-8726-f16d1207e63f)
+
 # Multi-Agent Data Analysis System
 
 This Agentic system is designed to handle complex data analysis tasks by breaking them down into smaller subtasks and delegating them to specialized agents. The system uses a multi-agent architecture to improve performance and scalability.
