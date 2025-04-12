@@ -9,7 +9,7 @@ RUN --mount=from=ghcr.io/astral-sh/uv,source=/uv,target=/bin/uv \
     uv sync --frozen --no-dev --no-cache
 
 # Copy the application into the container.
-COPY ./app /code/app
+COPY . /code/
 
 RUN groupadd -r nonroot && useradd -r -g nonroot nonroot
 USER nonroot
