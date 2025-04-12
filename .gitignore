@@ -1,15 +1,21 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
-
+*.md
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+myenv/
 *$py.class
 .idea
 # C extensions
 *.so
-
+.env
+/notebook/logs
+*.csv
+*.ipynb
+*.db
+*.Identifier
 # Distribution / packaging
 .Python
 build/
