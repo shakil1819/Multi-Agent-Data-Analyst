@@ -1,5 +1,5 @@
-from .data_analyst_agent import DataAnalystAgent
-from .sql_data_analyst_agent import SqlDataAnalystAgent
+from .data_analyst_agent import DataVisualizationAgent
+from .sql_data_analyst_agent import SQLDataAnalysisAgent
 
 
-__all__ = ["SqlDataAnalystAgent", "DataAnalystAgent"]
+__all__ = ["SQLDataAnalysisAgent", "DataVisualizationAgent"]

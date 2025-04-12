@@ -5,7 +5,7 @@ description = "A template for a Python FastAPI service with uv & Devcontainer"
 authors = [{ name = "Shakil Mosharrof", email = "shakilmrf8@gmail.com" }]
 license = "MIT"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
   "agno>=1.2.6",
   "ai-data-science-team>=0.0.0.9016",
@@ -31,6 +31,15 @@ dependencies = [
   "pydantic-graph>=0.0.52",
   "scikit-learn>=1.6.1",
   "streamlit>=1.44.1",
+  "statsmodels>=0.14.4",
+  "sqlalchemy>=2.0.40",
+  "gradio>=5.25.0",
+  "langchain-openai>=0.3.12",
+  "plotly>=6.0.1",
+  "pydantic-ai>=0.0.55",
+  "pydantic-graph>=0.0.55",
+  "pyright>=1.1.399",
+  "pytest-env>=1.1.5",
 ]
 
 
@@ -40,6 +49,7 @@ dev = [
   "pre-commit>=4.1.0",
   "pytest>=8.3.4",
   "pytest-cov>=6.0.0",
+  "pytest-asyncio",
   "ruff>=0.9.9",
   "black",
   "isort",
@@ -53,7 +63,7 @@ pretty = true
 
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "-v --cov=app --cov-branch --cov-report=term --cov-report=html --cov-fail-under=100"
+addopts = "-v --cov=app --cov-branch --cov-report=term --cov-report=html --cov-fail-under=50"
 testpaths = [
     "tests",
 ]

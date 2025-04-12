@@ -1,5 +1,5 @@
 pytest:
-	pytest --cov-report term --cov=app --cov-config=.coveragerc ./tests -v --ignore=tests/tools/
+	pytest --cov-report term --cov=app ./tests
 
 pre-commit:
 	pre-commit run --all-files
@@ -19,7 +19,7 @@ ruff-format:
 ruff: ruff-check ruff-format
 
 run:
-	uv run uvicorn app.main:app --port 8000 --reload
+	uv run uvicorn main:app --port 8000 --reload
 
 ops: pytest pre-commit clean ruff
 	@echo "\033[92mAll operations completed successfully.\033[0m"

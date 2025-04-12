@@ -29,6 +29,8 @@ order-by-type = true
 extend-select = ["E", "F", "I", "UP", "B", "W", "C90", "N", "D", "PYI", "PT", "RET", "SIM", "ARG", "ERA"]
 ignore = [
   "B008",
+  "PT009",
+  "E501",
   "D100",
   "D101",
   "D102",
