@@ -55,7 +55,7 @@ python main.py
 
 ## Usage
 
-1. Access the API at `http://localhost:8000`.
+1. Access the API at `http://localhost:8080`.
 2. Use the endpoints provided by the API to interact with the system.
 
 ## Testing
