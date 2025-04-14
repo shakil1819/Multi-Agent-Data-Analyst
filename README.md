@@ -25,6 +25,8 @@
 ![image](https://github.com/user-attachments/assets/e124c4a7-18ea-49f2-8726-f16d1207e63f)
 
 # Multi-Agent Data Analysis System
+![bfb52a27-471e-4baf-aa8d-40f7313baec4](https://github.com/user-attachments/assets/034f958e-a947-4164-9e81-f8c44b472925)
+
 
 This Agentic system is designed to handle complex data analysis tasks by breaking them down into smaller subtasks and delegating them to specialized agents. The system uses a multi-agent architecture to improve performance and scalability.
 
@@ -34,6 +36,10 @@ This Agentic system is designed to handle complex data analysis tasks by breakin
 - **Data Analyst Agent**: Handles data analysis tasks.
 - **SQL Data Analyst Agent**: Specialized in SQL-based data analysis.
 - **Visualization Server**: Manages the visualization of data analysis results.
+
+## System Design Diagram:
+![screencapture-mermaid-live-view-2025-04-15-01_00_08](https://github.com/user-attachments/assets/2e56f0dc-1865-4dc5-a292-a6ff6fe317f6)
+
 
 ## Setup
 
