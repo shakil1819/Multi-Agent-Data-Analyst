@@ -93,7 +93,7 @@ importlib-resources==6.5.2
 iniconfig==2.1.0
 ipykernel==6.29.5
 ipython==8.34.0
-ipywidgets==8.1.5
+ipywidgets==8.1.6
 isoduration==20.11.0
 isort==6.0.1
 jedi==0.19.2
