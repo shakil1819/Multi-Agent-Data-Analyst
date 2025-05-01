@@ -75,7 +75,7 @@ gitdb==4.0.12
 gitpython==3.1.44
 google-auth==2.38.0
 googleapis-common-protos==1.69.2
-greenlet==3.1.1
+greenlet==3.2.1
 griffe==1.7.2
 groq==0.22.0
 grpcio==1.71.0
