@@ -4,6 +4,7 @@
   [![format Action](https://github.com/IbraheemTuffaha/python-fastapi-template/actions/workflows/format.yml/badge.svg)](https://github.com/IbraheemTuffaha/python-fastapi-template/actions/workflows/format.yml)
   [![Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FIbraheemTuffaha%2Fpython-fastapi-template%2Fmain%2Fpyproject.toml&query=project.requires-python&label=python&color=greenlime)](https://github.com/IbraheemTuffaha/python-fastapi-template/blob/main/pyproject.toml)
   [![GitHub License](https://img.shields.io/github/license/IbraheemTuffaha/python-fastapi-template?color=greenlime)](https://github.com/IbraheemTuffaha/python-fastapi-template/blob/main/LICENSE)
+  [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shakil1819/Multi-Agent-Data-Analyst)
 </div>
 <div align="center">
   <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fshakil1819%2FgetChief-assignment">
